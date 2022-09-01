@@ -60,7 +60,11 @@
     		<groupId>com.sun.xml.bind</groupId>
     		<artifactId>jaxb-impl</artifactId>
    			 <version>3.0.2</version>
-		</dependency>	
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
